@@ -1,0 +1,46 @@
+/* Reset */
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Layout */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+
+/* Header */
+header {
+  background: #333;
+  color: white;
+  padding: 0.5em;
+}
+header a {
+  color: white;
+  padding: 0 10px;
+}
+nav {
+  display: flex;
+}
+.header-nav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  padding: 0.5em;
+  text-align: center;
+}

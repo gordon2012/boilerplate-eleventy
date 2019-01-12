@@ -1,0 +1,8 @@
+<footer>
+  Copyright <span class="footer-year"></span> Gordon Doskas
+</footer>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelector('.footer-year').innerHTML = (new Date()).getFullYear();
+  });
+</script>
