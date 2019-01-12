@@ -1,0 +1,14 @@
+{
+  "name": "boilerplate-eleventy",
+  "version": "1.0.0",
+  "description": "Static Site Boilerplate using Eleventy",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve"
+  },
+  "author": "Gordon Doskas",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.7.1"
+  }
+}
