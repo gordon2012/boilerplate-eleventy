@@ -15,9 +15,7 @@
 <body>
   {% include "components/header.njk" %}
   <main>
-    {% Container "800px" %}
-      {{ content | safe }}
-    {% endContainer %}
+    {{ content | safe }}
   </main>
   {% include "components/footer.njk" %}
 </body>

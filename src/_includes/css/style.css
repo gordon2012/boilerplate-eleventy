@@ -8,6 +8,11 @@ html {
   box-sizing: border-box;
 }
 
+h1 {
+  margin: 0;
+  padding: 0.5em 0;
+}
+
 /* Layout */
 body {
   min-height: 100vh;
@@ -18,11 +23,31 @@ main {
   flex: 1;
 }
 
+/* ELEMENTS */
+
+/* Container */
+.container {
+  padding: 0 0.5em;
+}
+
+/* Hero */
+.hero {
+  background: #666;
+  color: white;
+  height: 20vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SECTIONS */
+
 /* Header */
 header {
   background: #333;
   color: white;
-  padding: 0.5em;
+  padding: 0.5em 0;
 }
 header a {
   color: white;
