@@ -2,9 +2,11 @@
   "name": "boilerplate-eleventy",
   "version": "1.0.0",
   "description": "Static Site Boilerplate using Eleventy",
-  "main": "index.js",
+  "main": "dist/index.html",
   "scripts": {
-    "start": "eleventy --serve"
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "build:production": "ELEVENTY_PRODUCTION=true eleventy"
   },
   "author": "Gordon Doskas",
   "license": "MIT",
