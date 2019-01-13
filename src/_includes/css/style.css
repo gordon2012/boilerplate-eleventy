@@ -34,11 +34,14 @@ main {
 .hero {
   background: #666;
   color: white;
-  height: 20vh;
+  height: 30vh;
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.hero-big {
+  height: 50vh;
 }
 
 /* SECTIONS */

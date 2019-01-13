@@ -7,6 +7,8 @@ const components = `${input}/_includes/components`;
 const Container = require(`./${components}/Container.js`);
 
 module.exports = function(config) {
+  config.addPassthroughCopy('src/img');
+
   config.addFilter('cssmin', function(code) {
     return process.env.ELEVENTY_PRODUCTION
       ? new CleanCSS({}).minify(code).styles
