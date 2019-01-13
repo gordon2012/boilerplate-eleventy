@@ -9,6 +9,7 @@
   "author": "Gordon Doskas",
   "license": "MIT",
   "devDependencies": {
-    "@11ty/eleventy": "^0.7.1"
+    "@11ty/eleventy": "^0.7.1",
+    "clean-css": "^4.2.1"
   }
 }
